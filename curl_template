@@ -1,0 +1,3 @@
+curl -o caches/@tick@.html 'https://hk.finance.yahoo.com/quote/@tick@.HK/key-statistics?p=@tick@.HK' -XGET -H 'Accept: text/html,application/xhtml+x
+ml,application/xml;q=0.9,*/*;q=0.8' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/603.2.5 (KHTML, like Gecko) Version/10.1.1 Safari
+/603.2.5'

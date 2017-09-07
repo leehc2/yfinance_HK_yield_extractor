@@ -1,0 +1,1 @@
+TICKS=`cat ticks.txt | paste -sd "," -` &&  ./run_curl $TICKS && node index.js --ticks $TICKS && rsync -avzh output/ ~/Sites/StockInfo/
